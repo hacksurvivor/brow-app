@@ -1,0 +1,6 @@
+:root{color-scheme:light dark;--bg:#fff;--fg:#111;--dim:#666}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f2f2f2;--dim:#999}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:56px 20px}
+h1{font-size:34px;margin:0 0 4px}p.sub{color:var(--dim);margin:0 0 32px}
+h2{font-size:18px;margin:32px 0 8px}a{color:inherit}nav{margin-top:40px;color:var(--dim);font-size:14px}
